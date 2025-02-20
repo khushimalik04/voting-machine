@@ -1,0 +1,127 @@
+.box {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f9f9f9;
+  
+}
+
+.party-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.party {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #e8e8e8;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;  
+}
+
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.total-votes {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; 
+}
+
+.total-box {
+  background-color: green;
+  color: white;           
+  padding: 10px 20px;      
+  border-radius: 5px;     
+  font-size: 16px;         
+  display: inline-block;   
+}
+
+
+
+button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #e8e8e8;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.reset-votes {
+  margin-top: 20px;
+}
+
+.reset-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;  
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+.reset-button:hover {
+  background-color: darkred;
+}
+
